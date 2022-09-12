@@ -57,7 +57,7 @@ ROOT_URLCONF = 'Vika_2021.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['Vika_2021/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
